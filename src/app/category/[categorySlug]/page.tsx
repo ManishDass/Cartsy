@@ -1,3 +1,3 @@
 export default function Page({ params }: { params: { categorySlug: string } }) {
-    return <div>My Post: {params.categorySlug}</div>
+    return <div>Category Slug: {params.categorySlug}</div>
   }
